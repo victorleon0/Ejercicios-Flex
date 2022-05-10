@@ -1,0 +1,33 @@
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+.noticia{
+    flex: 1;
+    flex-direction: row;
+    padding:20px;
+}
+
+
+.masnoticias{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black
+  
+}
+.secundarias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.noticiasecundaria{
+    flex:1;
+    display: inline;
+    width: 300px;
+    height:550px;
+    border: 1px solid black
+}

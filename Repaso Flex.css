@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+div{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+.cardscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.card{
+    align-items: center;
+    padding:30px
+}
